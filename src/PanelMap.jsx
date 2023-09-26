@@ -34,7 +34,7 @@ export const ChoroplethMap = ({ data = [], options, onChangeOption }) => {
         zoom={options?.zoom}
         style={{ width: 600, height: 400 }}
         mapStyle="mapbox://styles/mapbox/streets-v9"
-        mapboxAccessToken="pk.eyJ1IjoiZGlhbmhhbjgiLCJhIjoiY2tzcm1vaXlqMG84ZjMxbzY0YXI0c3NldyJ9.kQCK06F7oQJ9HugVTByQHQ"
+        mapboxAccessToken="access_token_mapbox"
         onClick={(e) => onChangeOption({
           long: e.lngLat.lng,
           lat: e.lngLat.lat,
